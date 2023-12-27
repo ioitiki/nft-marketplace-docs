@@ -2,6 +2,6 @@
 description: the best
 ---
 
-# Page 2
+# Authentication
 
 the best
