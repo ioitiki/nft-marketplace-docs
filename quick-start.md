@@ -19,7 +19,7 @@ The following tutorial is meant for desktop operating systems, not mobile.
 
 The Holochain "Launcher" is available for download freely on Github.
 
-[Go here](https://github.com/holochain/launcher/releases/tag/v0.9.0) to access the instructions, and the download, for your operating system. Make sure to note the special instructions for your operating system, as the software is still labeled as "Pre-release" and is not yet optimized for user experience.&#x20;
+[Go here](https://github.com/holochain/launcher/releases/tag/v0.9.0) to access the instructions, and the download, for your operating system. Make sure to note the special instructions for your operating system, as the software is still labeled as "Pre-release" and is not yet optimized for user experience.
 
 When you start the Holochain Launcher application it will ask that you set a password, which is used to encrypt your data for security. Make sure you record that password somewhere.
 
@@ -37,7 +37,7 @@ Find the `hrea.webhapp` file on your filesystem, and select it.
 
 In the next popup that appears, `Install App: hrea_suite`, you only need to modify one thing. In the field labeled **`Holochain Version`**, select **`0.1.3`** from the list. Next, click `Install`. Wait while it installs. Once it's done, it should take you back to the main page, and you should see 'hrea\_suite' and it should say 'Running', which is its status. Click `Open` to start using the Graphql Explorer application!
 
-![](<.gitbook/assets/Screen Shot 2022-07-04 at 7.41.58 AM.png>)
+![](.gitbook/assets/Screen%20Shot%202022-07-04%20at%207.41.58%20AM.png)
 
 {% hint style="info" %}
 The Holochain Launcher runtime is capable of running the small pre-packaged bundles of application logic which are known as hApps (holochainApps). Even more specific than a "hApp" is a "webhapp", which is simply a bundle of web-language (HTML/CSS/Javascript) files and a hApp. The Launcher can also install and run these webhapps by serving the user interface files as well.
@@ -64,7 +64,7 @@ mutation CreatePerson {
 
 Next, click the `Play` button, and then click the query named `CreatePerson`, which is just an arbitrary label.
 
-![](<.gitbook/assets/Screen Shot 2022-07-04 at 8.08.08 AM.png>)
+![](.gitbook/assets/Screen%20Shot%202022-07-04%20at%208.08.08%20AM.png)
 
 In the right panel, you should see something like this
 
@@ -94,7 +94,7 @@ mutation AssociateMyAgent {
 ```
 
 {% hint style="info" %}
-To understand these functions in more depth, check out the section on [Usign "myAgent"](using-myagent.md).&#x20;
+To understand these functions in more depth, check out the section on [Usign "myAgent"](broken-reference).
 {% endhint %}
 
 ## Continue with other queries and exploration
@@ -106,7 +106,7 @@ You will be able to access `myAgent` which will be a very useful query for devel
 Here are a few other useful tips.
 
 {% hint style="info" %}
-Check out [Thinking & Expressing ValueFlows](thinking-and-expressing-valueflows.md) to start learning the vocabulary and creating Economic Events.
+Check out [Thinking & Expressing ValueFlows](broken-reference) to start learning the vocabulary and creating Economic Events.
 {% endhint %}
 
 {% hint style="info" %}
@@ -114,20 +114,19 @@ Check out the [GraphQL API Reference](reference/graphql-api-reference/) welcome 
 {% endhint %}
 
 {% hint style="info" %}
-Hover with your mouse over a label in order to see any documentation that may be available about that query.&#x20;
+Hover with your mouse over a label in order to see any documentation that may be available about that query.
 
-![](<.gitbook/assets/Screen Shot 2022-07-04 at 8.27.12 AM.png>)
+<img src=".gitbook/assets/Screen%20Shot%202022-07-04%20at%208.27.12%20AM.png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
 Click on a type like `PersonResponse` to view any other documentation about it, in the expanded 'Docs' panel.
 
-![](<.gitbook/assets/Screen Shot 2022-07-04 at 8.33.52 AM.png>)![](<.gitbook/assets/Screen Shot 2022-07-04 at 8.34.02 AM (1).png>)
+<img src=".gitbook/assets/Screen%20Shot%202022-07-04%20at%208.33.52%20AM.png" alt="" data-size="original"><img src=".gitbook/assets/Screen%20Shot%202022-07-04%20at%208.34.02%20AM%20(1).png" alt="" data-size="original">
 {% endhint %}
 
 {% hint style="info" %}
 Open the 'Explorer' to easily modify your query inputs and response values
 
-![](<.gitbook/assets/Screen Shot 2022-07-04 at 8.36.26 AM.png>)
+<img src=".gitbook/assets/Screen%20Shot%202022-07-04%20at%208.36.26%20AM.png" alt="" data-size="original">
 {% endhint %}
-

@@ -18,7 +18,7 @@ Run the following commands:
 
 ### Pointing the client to the holochain service
 
-Assuming that [you installed and are running an hREA "hApp" within a holochain service](running-hrea-backend.md), you need to provide three details to your client in order to know how to connect to, and make requests, of the holochain service. An "app id", an "app websocket url" and an "admin websocket url". Here's the quickest way to do that:
+Assuming that [you installed and are running an hREA "hApp" within a holochain service](broken-reference), you need to provide three details to your client in order to know how to connect to, and make requests, of the holochain service. An "app id", an "app websocket url" and an "admin websocket url". Here's the quickest way to do that:
 
 To your package.json startup command, whatever it is, add this as a prefix to the rest of the command:
 
@@ -42,16 +42,16 @@ As an alternative to this, use the [dotenv](https://www.npmjs.com/package/dotenv
 
 When installing a 'hApp' to holochain, each hApp must be given a unique identifier. Whatever the value of the `installed_app_id` value given to holochain for the hREA happ, that value is what should be used instead of 'hrea\_suite'.
 
-`REACT_APP_HC_APP_ID='hrea_suite'`&#x20;
+`REACT_APP_HC_APP_ID='hrea_suite'`
 
-When running a holochain service, it can be instructed to setup a websocket server, over which requests can be made. The URL of this websocket server can be constructed similar to the following, based on whatever port the 'App Websocket' service is declared by holochain to be running, such as `4000`.&#x20;
+When running a holochain service, it can be instructed to setup a websocket server, over which requests can be made. The URL of this websocket server can be constructed similar to the following, based on whatever port the 'App Websocket' service is declared by holochain to be running, such as `4000`.
 
 `REACT_APP_HC_CONN_URL='ws://localhost:4000'`
 
-When running a holochain service, it will always need to open an admin level websocket server, over which secure administration requests can be sent to holochain to control it. The URL of this websocket server can be constructed similar to the following, based on whatever port the 'Admin Websocket' service is declared by holochain to be running, such as `4001`.&#x20;
+When running a holochain service, it will always need to open an admin level websocket server, over which secure administration requests can be sent to holochain to control it. The URL of this websocket server can be constructed similar to the following, based on whatever port the 'Admin Websocket' service is declared by holochain to be running, such as `4001`.
 
 {% hint style="info" %}
-If you are looking to release to the [**Holochain Launcher**](https://github.com/holochain/launcher), during your build process, if you have one, make sure to set both of these values to '' empty, as the Launcher will assist your client to negotiate these values automatically through some ['magical introspection'](https://github.com/holochain/holochain-client-js/blob/cc9563ca5db448cd03f7e298e4fd71fc1625cbcd/src/environments/launcher.ts).&#x20;
+If you are looking to release to the [**Holochain Launcher**](https://github.com/holochain/launcher), during your build process, if you have one, make sure to set both of these values to '' empty, as the Launcher will assist your client to negotiate these values automatically through some ['magical introspection'](https://github.com/holochain/holochain-client-js/blob/cc9563ca5db448cd03f7e298e4fd71fc1625cbcd/src/environments/launcher.ts).
 {% endhint %}
 
 ### Imports
@@ -70,8 +70,8 @@ Elsewhere in your code, somewhere near the entry point and in a high level or gl
     const client = await graphqlClientHolochain()
 ```
 
-The `client` is an instance of an `ApolloClient` from the `@apollo/client` npm library.&#x20;
+The `client` is an instance of an `ApolloClient` from the `@apollo/client` npm library.
 
-Everything is configured now, and you're ready to make your first requests!&#x20;
+Everything is configured now, and you're ready to make your first requests!
 
-To continue with this, see Step 4 and beyond in this @apollo/client getting started tutorial: [https://www.apollographql.com/docs/react/get-started](https://www.apollographql.com/docs/react/get-started/#step-4-connect-your-client-to-react)&#x20;
+To continue with this, see Step 4 and beyond in this @apollo/client getting started tutorial: [https://www.apollographql.com/docs/react/get-started](https://www.apollographql.com/docs/react/get-started/#step-4-connect-your-client-to-react)
