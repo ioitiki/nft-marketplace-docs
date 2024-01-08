@@ -8,4 +8,4 @@ description: Creates a Collection and supporting smart contracts.
 
 ---
 
-<span style="font-weight: bold;">name</span> <span style="opacity: 0.7;  padding: 0 10px; ">string</span> <span style="color: orange">Required</span>
+- `name` **string** ![Required](https://via.placeholder.com/15/f03c15/000000?text=+)
