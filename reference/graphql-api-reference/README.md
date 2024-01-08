@@ -16,62 +16,6 @@ There are a number of queries and mutations that appear in the specification, bu
 
 Each of the items listed below is what is known as a Valueflows Module. They can be individually enabled, and so looking at each one specifically will tell you which Graphql queries and mutations are accessible.
 
-{% content-ref url="action.md" %}
-[action.md](action.md)
-{% endcontent-ref %}
-
-{% content-ref url="agent.md" %}
-[agent.md](agent.md)
-{% endcontent-ref %}
-
-{% content-ref url="agreement.md" %}
-[agreement.md](agreement.md)
-{% endcontent-ref %}
-
-{% content-ref url="commitment.md" %}
-[commitment.md](commitment.md)
-{% endcontent-ref %}
-
-{% content-ref url="fulfillment.md" %}
-[fulfillment.md](fulfillment.md)
-{% endcontent-ref %}
-
-{% content-ref url="intent.md" %}
-[intent.md](intent.md)
-{% endcontent-ref %}
-
-{% content-ref url="measurement.md" %}
-[measurement.md](measurement.md)
-{% endcontent-ref %}
-
-{% hint style="info" %}
-Note that **Observation** module below includes both the key **Economic Resource** and **Economic Event** classes, unlike many of the other modules which contain one primary class definition
-{% endhint %}
-
-{% content-ref url="observation.md" %}
-[observation.md](observation.md)
-{% endcontent-ref %}
-
-{% content-ref url="plan.md" %}
-[plan.md](plan.md)
-{% endcontent-ref %}
-
-{% content-ref url="process.md" %}
-[process.md](process.md)
-{% endcontent-ref %}
-
-{% content-ref url="process-specification.md" %}
-[process-specification.md](process-specification.md)
-{% endcontent-ref %}
-
-{% content-ref url="proposal.md" %}
-[proposal.md](proposal.md)
-{% endcontent-ref %}
-
-{% content-ref url="resource-specification.md" %}
-[resource-specification.md](resource-specification.md)
-{% endcontent-ref %}
-
-{% content-ref url="satisfaction.md" %}
-[satisfaction.md](satisfaction.md)
+{% content-ref url="collections.md" %}
+[collections.md](collections.md)
 {% endcontent-ref %}
