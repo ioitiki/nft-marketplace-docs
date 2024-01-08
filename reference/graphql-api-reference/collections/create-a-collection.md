@@ -6,6 +6,14 @@ description: Creates a Collection and supporting smart contracts.
 
 ### Parameters
 
----
+***
 
-- `name` **string** ![Required](https://via.placeholder.com/15/f03c15/000000?text=+)
+**name**  |  s_tring_  |  :orange\_circle: Required
+
+> #### The name of the collection.
+>
+> Example: `My first Collection`
+
+**symbol**  |  _string_  |  :red\_circle: Deprecated
+
+> A short symbol or abbreviation for the collection.
