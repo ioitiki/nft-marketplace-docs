@@ -4,7 +4,15 @@ description: Creates a Collection and supporting smart contracts.
 
 # Create a Collection
 
+## Basic Usage
+
+---
+
+
+
 ## Parameters
+
+---
 
 <details>
 
@@ -206,7 +214,7 @@ Example: `true`
 
 </details>
 
-*
+---
 
 ## Example Usage
 
