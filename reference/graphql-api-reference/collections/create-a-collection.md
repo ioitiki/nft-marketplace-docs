@@ -130,19 +130,19 @@ Example: `https://example.com/collection`
 
 <summary>[social_media_links]&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-Links to various social media profiles associated with the collection (telegram, discord, TikTok, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn).
+Links to various social media profiles associated with the collection (telegram_link, discord_link, tiktok_link, whatsapp_link, facebook_link, instagram_link, twitter_link, youtube_link, linkedin_link).
 
 Example:
 
-* telegram: `https://t.me/example`
-* discord: `https://discord.gg/example`
-* TikTok: `https://www.tiktok.com/@example`
-* WhatsApp: `https://wa.me/1234567890`
-* Facebook: `https://www.facebook.com/example`
-* Instagram: `https://www.instagram.com/example`
-* Twitter: `https://twitter.com/example`
-* YouTube: `https://www.youtube.com/c/example`
-* LinkedIn: `https://www.linkedin.com/company/example`
+* telegram_link: `https://t.me/example`
+* discord_link: `https://discord.gg/example`
+* tiktok_link: `https://www.tiktok.com/@example`
+* whatsapp_link: `https://wa.me/1234567890`
+* facebook_link: `https://www.facebook.com/example`
+* instagram_link: `https://www.instagram.com/example`
+* twitter_link: `https://twitter.com/example`
+* youtube_link: `https://www.youtube.com/c/example`
+* linkedin_link: `https://www.linkedin.com/company/example`
 
 </details>
 
