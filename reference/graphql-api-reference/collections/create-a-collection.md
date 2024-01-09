@@ -7,7 +7,7 @@ description: Creates a Collection and supporting smart contracts.
 ## Parameters
 
 <details>
-<summary><strong>name</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>name</strong>    |    <><em>string</em></span>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **The name of the collection.**
 
@@ -225,10 +225,14 @@ Example: `true`
 }
 ```
 
+{% code title="index.js" overflow="wrap" lineNumbers="true" %}
+
 ```graphql
 mutation createCollection($createCollectionInput: CreateCollectionInput) {
   createCollection(createCollectionInput: $createCollectionInput)
 }
 ```
+
+{% endcode %}
 
 ## Response
