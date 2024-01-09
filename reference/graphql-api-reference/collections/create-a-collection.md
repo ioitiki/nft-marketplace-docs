@@ -7,7 +7,7 @@ description: Creates a Collection and supporting smart contracts.
 ## Parameters
 
 <details>
-<summary><strong>name</strong>    |    <><em>string</em></span>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>name</strong>    |    <span style="opacity: 0.7;"><em>string</em></span>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **The name of the collection.**
 
@@ -117,11 +117,11 @@ Example: `https://example.com/collection`
 <details>
 <summary><strong>[social_media_links]</strong>    |    <em>string</em>    |    Optional</summary>
 
-**Links to various social media profiles associated with the collection (Telegram, Discord, TikTok, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn).**
+**Links to various social media profiles associated with the collection (telegram, discord, TikTok, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn).**
 
 Example:
-- Telegram: `https://t.me/example`
-- Discord: `https://discord.gg/example`
+- telegram: `https://t.me/example`
+- discord: `https://discord.gg/example`
 - TikTok: `https://www.tiktok.com/@example`
 - WhatsApp: `https://wa.me/1234567890`
 - Facebook: `https://www.facebook.com/example`
