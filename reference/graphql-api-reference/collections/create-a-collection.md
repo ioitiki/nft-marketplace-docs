@@ -6,8 +6,6 @@ description: Creates a Collection and supporting smart contracts.
 
 ## Parameters
 
-***
-
 **name** | _string_ | :orange_circle: Required
 
 > #### The name of the collection.
@@ -132,3 +130,48 @@ description: Creates a Collection and supporting smart contracts.
 > Example: `true`
 
 ***
+
+## Example Usage
+
+```json
+{
+  "createCollectionInput": {
+    "blockchain": null,
+    "chain_id": null,
+    "cover_image": null,
+    "description": null,
+    "discord_link": null,
+    "external_link": null,
+    "facebook_link": null,
+    "instagram_link": null,
+    "is_custom_event": null,
+    "is_mainnet": null,
+    "is_public": null,
+    "linkedin_link": null,
+    "logo_image": null,
+    "minting_payer": null,
+    "name": null,
+    "network": null,
+    "payout_program_id": null,
+    "seller_fee_basis_points": null,
+    "show_on_collection_page": null,
+    "show_on_home_page": null,
+    "symbol": null,
+    "telegram_link": null,
+    "tiktok_link": null,
+    "twitter_link": null,
+    "type": null,
+    "version": null,
+    "whatsapp_link": null,
+    "youtube_link": null
+  }
+}
+```
+
+```graphql
+mutation createCollection($createCollectionInput: CreateCollectionInput) {
+  createCollection(createCollectionInput: $createCollectionInput)
+}
+```
+
+## Response
