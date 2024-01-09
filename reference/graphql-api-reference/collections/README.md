@@ -1,22 +1,12 @@
-# Action
+---
+description: >-
+  Smart contract creation. Collections at Chainstarters consist of an ERC1155
+  contract accompanied by two supporting contracts; a Factory contract and a
+  Sales Contract.
+---
 
-## Classes
+# Collections
 
-### `Action`
-
-An action verb defining the kind of event, commitment, or intent.
-It is recommended that the lowercase action verb should be used as the record ID
-in order that references to `Action`s elsewhere in the system are easily readable.
-
-## Queries
-
-### `action`
-
-> Status: Implemented
-
-### `actions`
-
-> Status: Implemented
-
-## Mutations
-
+{% hint style="info" %}
+Because of the time involed in deploying a&#x20;
+{% endhint %}

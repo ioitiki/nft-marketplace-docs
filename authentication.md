@@ -10,9 +10,17 @@ Owner tokens give the caller more or less complete access to all queries and mut
 
 > Owner tokens are prefixed with `owner:`
 
+
+
+Below is an example construction of an owner token:
+
 ```typescript
 const ownerToken = `owner:${OWNER_TOKEN}`
 ```
+
+{% hint style="info" %}
+If you are a current Chainstarters user and do not have an owner token reach out to an administrator.
+{% endhint %}
 
 ***
 
@@ -20,7 +28,13 @@ const ownerToken = `owner:${OWNER_TOKEN}`
 
 ***
 
-### Custom
+Currently admin tokens are used internally by the Chainstarters Dashboard.
+
+> Admin tokens are prefixed with `admin:`
+
+{% hint style="info" %}
+We are currently working on an more permanent admin token solution that would allow dashboard users to generate long lasting tokens. If you have need for a custom admin token in the mean time please reach out to a Chainstarters administrator.
+{% endhint %}
 
 ***
 
@@ -45,7 +59,7 @@ class ExampleSend {
 
   async send(query: DocumentNode) {
     try {
-      const response: AxiosResponse<GraphQLResponse<boolean>> = await axios.post('/prod', {
+      const response: AxiosResponse<GraphQLResponse> = await axios.post('/prod', {
         query: print(query)
       });
 
