@@ -6,128 +6,185 @@ description: Creates a Collection and supporting smart contracts.
 
 ## Parameters
 
-**name** | _string_ | :orange_circle: Required
+<details>
+<summary><strong>name</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-> #### The name of the collection.
->
-> Example: `My first Collection`
+**The name of the collection.**
 
-**symbol** | _string_ | :red_circle: Deprecated
+Example: `My first Collection`
 
-> #### A short symbol or abbreviation for the collection.
->
-> Example: `MFC`
+</details>
 
-**description** | _string_ | Optional
+<details>
+<summary><strong>symbol</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f534">🔴</span> Deprecated</summary>
 
-> #### A brief description of the collection.
->
-> Example: `A unique collection of digital artworks.`
+**A short symbol or abbreviation for the collection.**
 
-**logo_image** | _string_ | :orange_circle: Required
+Example: `MFC`
 
-> #### URL or path to the logo image for the collection.
->
-> Example: `https://example.com/logo.png`
+</details>
 
-**cover_image** | _string_ | Optional
+<details>
+<summary><strong>description</strong>    |    <em>string</em>    |    Optional</summary>
 
-> #### URL or path to the cover image for the collection.
->
-> Example: `https://example.com/cover.jpg`
+**A brief description of the collection.**
 
-**seller_fee_basis_points** | _number_ | Optional
+Example: `A unique collection of digital artworks.`
 
-> #### The seller fee in basis points.
->
-> Example: `250` (representing 2.5%)
+</details>
 
-**minting_payer** | _string_ | :orange_circle: Required
+<details>
+<summary><strong>logo_image</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-> #### Wallet address responsible for paying minting fees.
->
-> Example: `0x123abc...`
+**URL or path to the logo image for the collection.**
 
-**blockchain** | _string_ | :orange_circle: Required
+Example: `https://example.com/logo.png`
 
-> #### The blockchain on which the collection is based, restricted to "ethereum" or "polygon".
->
-> Example: `ethereum`
+</details>
 
-**network** | _string_ | :orange_circle: Required
+<details>
+<summary><strong>cover_image</strong>    |    <em>string</em>    |    Optional</summary>
 
-> #### The network name.
->
-> Example: `mainnet`
+**URL or path to the cover image for the collection.**
 
-**is_mainnet** | _boolean_ | :orange_circle: Required
+Example: `https://example.com/cover.jpg`
 
-> #### Flag to indicate if the collection is on the main network.
->
-> Example: `true`
+</details>
 
-**is_public** | _boolean_ | :orange_circle: Required
+<details>
+<summary><strong>seller_fee_basis_points</strong>    |    <em>number</em>    |    Optional</summary>
 
-> #### Flag to indicate if the collection is public.
->
-> Example: `true`
+**The seller fee in basis points.**
 
-**external_link** | _string_ | Optional
+Example: `250` (representing 2.5%)
 
-> #### External link to the collection website or page.
->
-> Example: `https://example.com/collection`
+</details>
 
-**[social_media_links]** | _string_ | Optional
+<details>
+<summary><strong>minting_payer</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-> #### Links to various social media profiles associated with the collection (Telegram, Discord, TikTok, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn).
->
-> Example: 
-> - Telegram: `https://t.me/example`
-> - Discord: `https://discord.gg/example`
-> - TikTok: `https://www.tiktok.com/@example`
-> - WhatsApp: `https://wa.me/1234567890`
-> - Facebook: `https://www.facebook.com/example`
-> - Instagram: `https://www.instagram.com/example`
-> - Twitter: `https://twitter.com/example`
-> - YouTube: `https://www.youtube.com/c/example`
-> - LinkedIn: `https://www.linkedin.com/company/example`
+**Wallet address responsible for paying minting fees.**
 
-**payout_program_id** | _number_ | Optional
+Example: `0x123abc...`
 
-> #### ID for the payout program associated with the collection.
->
-> Example: `101`
+</details>
 
-**version** | _ContractVersion_ | Optional
+<details>
+<summary><strong>blockchain</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-> #### The version of the contract used for the collection.
->
-> Example: `v1.0.0`
+**The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.**
 
-**type** | _string_ | Optional
+Example: `ethereum`
 
-> #### The type or category of the collection.
->
-> Example: `art`
+</details>
 
-**is_custom_event** | _boolean_ | Optional
+<details>
+<summary><strong>network</strong>    |    <em>string</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-> #### Flag to indicate if the collection uses custom events.
->
-> Example: `false`
+**The network name.**
 
-**show_on_home_page** | _boolean_ | Optional
+Example: `mainnet`
 
-> #### Flag to indicate if the collection should be displayed on the home page.
->
-> Example: `true`
+</details>
 
-**show_on_collection_page** | _boolean_ | Optional
+<details>
+<summary><strong>is_mainnet</strong>    |    <em>boolean</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-> #### Flag to indicate if the collection should be displayed on the collection page.
->
-> Example: `true`
+**Flag to indicate if the collection is on the main network.**
+
+Example: `true`
+
+</details>
+
+<details>
+<summary><strong>is_public</strong>    |    <em>boolean</em>    |    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+
+**Flag to indicate if the collection is public.**
+
+Example: `true`
+
+</details>
+
+<details>
+<summary><strong>external_link</strong>    |    <em>string</em>    |    Optional</summary>
+
+**External link to the collection website or page.**
+
+Example: `https://example.com/collection`
+
+</details>
+
+<details>
+<summary><strong>[social_media_links]</strong>    |    <em>string</em>    |    Optional</summary>
+
+**Links to various social media profiles associated with the collection (Telegram, Discord, TikTok, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn).**
+
+Example:
+- Telegram: `https://t.me/example`
+- Discord: `https://discord.gg/example`
+- TikTok: `https://www.tiktok.com/@example`
+- WhatsApp: `https://wa.me/1234567890`
+- Facebook: `https://www.facebook.com/example`
+- Instagram: `https://www.instagram.com/example`
+- Twitter: `https://twitter.com/example`
+- YouTube: `https://www.youtube.com/c/example`
+- LinkedIn: `https://www.linkedin.com/company/example`
+
+</details>
+
+<details>
+<summary><strong>payout_program_id</strong>    |    <em>number</em>    |    Optional</summary>
+
+**ID for the payout program associated with the collection.**
+
+Example: `101`
+
+</details>
+
+<details>
+<summary><strong>version</strong>    |    <em>ContractVersion</em>    |    Optional</summary>
+
+**The version of the contract used for the collection.**
+
+Example: `v1.0.0`
+
+</details>
+
+<details>
+<summary><strong>type</strong>    |    <em>string</em>    |    Optional</summary>
+
+**The type or category of the collection.**
+
+Example: `art`
+
+</details>
+
+<details>
+<summary><strong>is_custom_event</strong>    |    <em>boolean</em>    |    Optional</summary>
+
+**Flag to indicate if the collection uses custom events.**
+
+Example: `false`
+
+</details>
+
+<details>
+<summary><strong>show_on_home_page</strong>    |    <em>boolean</em>    |    Optional</summary>
+
+**Flag to indicate if the collection should be displayed on the home page.**
+
+Example: `true`
+
+</details>
+
+<details>
+<summary><strong>show_on_collection_page</strong>    |    <em>boolean</em>    |    Optional</summary>
+
+**Flag to indicate if the collection should be displayed on the collection page.**
+
+Example: `true`
+
+</details>
 
 ***
 
