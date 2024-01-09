@@ -8,7 +8,15 @@ description: Creates a Collection and supporting smart contracts.
 
 ---
 
+{% code title="mutation.gql" lineNumbers="false" %}
+```graphql
+mutation createCollection($createCollectionInput: CreateCollectionInput) {
+  createCollection(createCollectionInput: $createCollectionInput)
+}
+```
+{% endcode %}
 
+---
 
 ## Parameters
 
@@ -18,7 +26,8 @@ description: Creates a Collection and supporting smart contracts.
 
 <summary>name&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><mark style="color:blue;"><em>string</em></mark></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
-The name of the collection.
+
+> The name of the collection.
 
 Example: `My first Collection`
 
@@ -28,7 +37,8 @@ Example: `My first Collection`
 
 <summary>symbol&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:red;">Deprecated</mark></summary>
 
-A short symbol or abbreviation for the collection.
+
+> A short symbol or abbreviation for the collection.
 
 Example: `MFC`
 
@@ -38,7 +48,8 @@ Example: `MFC`
 
 <summary>description&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-A brief description of the collection.
+
+> A brief description of the collection.
 
 Example: `A unique collection of digital artworks.`
 
@@ -48,7 +59,8 @@ Example: `A unique collection of digital artworks.`
 
 <summary>logo_image&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-URL or path to the logo image for the collection.
+
+> URL or path to the logo image for the collection.
 
 Example: `https://example.com/logo.png`
 
@@ -58,7 +70,8 @@ Example: `https://example.com/logo.png`
 
 <summary>cover_image&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-URL or path to the cover image for the collection.
+
+> URL or path to the cover image for the collection.
 
 Example: `https://example.com/cover.jpg`
 
@@ -68,7 +81,8 @@ Example: `https://example.com/cover.jpg`
 
 <summary>seller_fee_basis_points&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><mark style="color:blue;"><em>number</em></mark></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-The seller fee in basis points.
+
+> The seller fee in basis points.
 
 Example: `250` (representing 2.5%)
 
@@ -78,7 +92,8 @@ Example: `250` (representing 2.5%)
 
 <summary>minting_payer&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-Wallet address responsible for paying minting fees.
+
+> Wallet address responsible for paying minting fees.
 
 Example: `0x123abc...`
 
@@ -88,7 +103,8 @@ Example: `0x123abc...`
 
 <summary>blockchain&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.
+
+> The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.
 
 Example: `ethereum`
 
@@ -98,7 +114,8 @@ Example: `ethereum`
 
 <summary>network&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-The network name.
+
+> The network name.
 
 Example: `mainnet`
 
@@ -108,7 +125,8 @@ Example: `mainnet`
 
 <summary>is_mainnet&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-Flag to indicate if the collection is on the main network.
+
+> Flag to indicate if the collection is on the main network.
 
 Example: `true`
 
@@ -118,7 +136,8 @@ Example: `true`
 
 <summary>is_public&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-Flag to indicate if the collection is public.
+
+> Flag to indicate if the collection is public.
 
 Example: `true`
 
@@ -128,7 +147,8 @@ Example: `true`
 
 <summary>external_link&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-External link to the collection website or page.
+
+> External link to the collection website or page.
 
 Example: `https://example.com/collection`
 
@@ -138,7 +158,8 @@ Example: `https://example.com/collection`
 
 <summary>[social_media_links]&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-Links to various social media profiles associated with the collection (telegram_link, discord_link, tiktok_link, whatsapp_link, facebook_link, instagram_link, twitter_link, youtube_link, linkedin_link).
+
+> Links to various social media profiles associated with the collection (telegram_link, discord_link, tiktok_link, whatsapp_link, facebook_link, instagram_link, twitter_link, youtube_link, linkedin_link).
 
 Example:
 
@@ -158,7 +179,8 @@ Example:
 
 <summary>payout_program_id&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>number</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-ID for the payout program associated with the collection.
+
+> ID for the payout program associated with the collection.
 
 Example: `101`
 
@@ -168,7 +190,8 @@ Example: `101`
 
 <summary>version&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>ContractVersion</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-The version of the contract used for the collection.
+
+> The version of the contract used for the collection.
 
 Example: `v1.0.0`
 
@@ -178,7 +201,8 @@ Example: `v1.0.0`
 
 <summary>type&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-The type or category of the collection.
+
+> The type or category of the collection.
 
 Example: `art`
 
@@ -188,7 +212,8 @@ Example: `art`
 
 <summary>is_custom_event&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-Flag to indicate if the collection uses custom events.
+
+> Flag to indicate if the collection uses custom events.
 
 Example: `false`
 
@@ -198,7 +223,8 @@ Example: `false`
 
 <summary>show_on_home_page&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-Flag to indicate if the collection should be displayed on the home page.
+
+> Flag to indicate if the collection should be displayed on the home page.
 
 Example: `true`
 
@@ -208,7 +234,8 @@ Example: `true`
 
 <summary>show_on_collection_page&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
 
-Flag to indicate if the collection should be displayed on the collection page.
+
+> Flag to indicate if the collection should be displayed on the collection page.
 
 Example: `true`
 
@@ -252,13 +279,5 @@ Example: `true`
   }
 }
 ```
-
-{% code title="index.js" overflow="wrap" lineNumbers="true" %}
-```graphql
-mutation createCollection($createCollectionInput: CreateCollectionInput) {
-  createCollection(createCollectionInput: $createCollectionInput)
-}
-```
-{% endcode %}
 
 ## Response
