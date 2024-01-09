@@ -6,9 +6,9 @@ description: Creates a Collection and supporting smart contracts.
 
 ## Basic Usage
 
----
+***
 
-{% code title="mutation.gql" lineNumbers="false" %}
+{% code title="mutation.gql" lineNumbers="true" %}
 ```graphql
 mutation createCollection($createCollectionInput: CreateCollectionInput) {
   createCollection(createCollectionInput: $createCollectionInput)
@@ -16,18 +16,17 @@ mutation createCollection($createCollectionInput: CreateCollectionInput) {
 ```
 {% endcode %}
 
----
+***
 
 ## Parameters
 
----
+***
 
 <details>
 
-<summary>name&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><mark style="color:blue;"><em>string</em></mark></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>name    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
 
-
-> The name of the collection.
+The name of the collection.
 
 Example: `My first Collection`
 
@@ -35,10 +34,9 @@ Example: `My first Collection`
 
 <details>
 
-<summary>symbol&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:red;">Deprecated</mark></summary>
+<summary>symbol    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:red;">Deprecated</mark></summary>
 
-
-> A short symbol or abbreviation for the collection.
+A short symbol or abbreviation for the collection.
 
 Example: `MFC`
 
@@ -46,10 +44,9 @@ Example: `MFC`
 
 <details>
 
-<summary>description&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>description    -    <em><mark style="color:blue;">string</mark></em>    -    Optional</summary>
 
-
-> A brief description of the collection.
+A brief description of the collection.
 
 Example: `A unique collection of digital artworks.`
 
@@ -57,10 +54,9 @@ Example: `A unique collection of digital artworks.`
 
 <details>
 
-<summary>logo_image&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary>logo_image    -    <em><mark style="color:blue;">string</mark></em>    -    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-
-> URL or path to the logo image for the collection.
+URL or path to the logo image for the collection.
 
 Example: `https://example.com/logo.png`
 
@@ -68,10 +64,9 @@ Example: `https://example.com/logo.png`
 
 <details>
 
-<summary>cover_image&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>cover_image    -    <em><mark style="color:blue;">string</mark></em>    -    Optional</summary>
 
-
-> URL or path to the cover image for the collection.
+URL or path to the cover image for the collection.
 
 Example: `https://example.com/cover.jpg`
 
@@ -79,10 +74,9 @@ Example: `https://example.com/cover.jpg`
 
 <details>
 
-<summary>seller_fee_basis_points&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><mark style="color:blue;"><em>number</em></mark></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>seller_fee_basis_points    -    <em><mark style="color:blue;">number</mark></em>    -    Optional</summary>
 
-
-> The seller fee in basis points.
+The seller fee in basis points.
 
 Example: `250` (representing 2.5%)
 
@@ -90,10 +84,9 @@ Example: `250` (representing 2.5%)
 
 <details>
 
-<summary>minting_payer&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary>minting_payer    -    <em><mark style="color:blue;">string</mark></em>    -    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-
-> Wallet address responsible for paying minting fees.
+Wallet address responsible for paying minting fees.
 
 Example: `0x123abc...`
 
@@ -101,10 +94,9 @@ Example: `0x123abc...`
 
 <details>
 
-<summary>blockchain&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary>blockchain    -    <em><mark style="color:blue;">string</mark></em>    -    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-
-> The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.
+The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.
 
 Example: `ethereum`
 
@@ -112,10 +104,9 @@ Example: `ethereum`
 
 <details>
 
-<summary>network&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary>network    -    <em><mark style="color:blue;">string</mark></em>    -    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-
-> The network name.
+The network name.
 
 Example: `mainnet`
 
@@ -123,21 +114,9 @@ Example: `mainnet`
 
 <details>
 
-<summary>is_mainnet&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary>is_mainnet    -    <em><mark style="color:blue;">boolean</mark></em>    -    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
-
-> Flag to indicate if the collection is on the main network.
-
-Example: `true`
-
-</details>
-
-<details>
-
-<summary>is_public&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
-
-
-> Flag to indicate if the collection is public.
+Flag to indicate if the collection is on the main network.
 
 Example: `true`
 
@@ -145,10 +124,19 @@ Example: `true`
 
 <details>
 
-<summary>external_link&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>is_public    -    <em><mark style="color:blue;">boolean</mark></em>    -    <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
+Flag to indicate if the collection is public.
 
-> External link to the collection website or page.
+Example: `true`
+
+</details>
+
+<details>
+
+<summary>external_link    -    <em><mark style="color:blue;">string</mark></em>    -    Optional</summary>
+
+External link to the collection website or page.
 
 Example: `https://example.com/collection`
 
@@ -156,31 +144,29 @@ Example: `https://example.com/collection`
 
 <details>
 
-<summary>[social_media_links]&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>[social_media_links]    -    <em><mark style="color:blue;">string</mark></em>    -    Optional</summary>
 
-
-> Links to various social media profiles associated with the collection (telegram_link, discord_link, tiktok_link, whatsapp_link, facebook_link, instagram_link, twitter_link, youtube_link, linkedin_link).
+Links to various social media profiles associated with the collection (telegram\_link, discord\_link, tiktok\_link, whatsapp\_link, facebook\_link, instagram\_link, twitter\_link, youtube\_link, linkedin\_link).
 
 Example:
 
-* telegram_link: `https://t.me/example`
-* discord_link: `https://discord.gg/example`
-* tiktok_link: `https://www.tiktok.com/@example`
-* whatsapp_link: `https://wa.me/1234567890`
-* facebook_link: `https://www.facebook.com/example`
-* instagram_link: `https://www.instagram.com/example`
-* twitter_link: `https://twitter.com/example`
-* youtube_link: `https://www.youtube.com/c/example`
-* linkedin_link: `https://www.linkedin.com/company/example`
+* telegram\_link: `https://t.me/example`
+* discord\_link: `https://discord.gg/example`
+* tiktok\_link: `https://www.tiktok.com/@example`
+* whatsapp\_link: `https://wa.me/1234567890`
+* facebook\_link: `https://www.facebook.com/example`
+* instagram\_link: `https://www.instagram.com/example`
+* twitter\_link: `https://twitter.com/example`
+* youtube\_link: `https://www.youtube.com/c/example`
+* linkedin\_link: `https://www.linkedin.com/company/example`
 
 </details>
 
 <details>
 
-<summary>payout_program_id&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>number</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>payout_program_id    -    <em><mark style="color:blue;">number</mark></em>    -    Optional</summary>
 
-
-> ID for the payout program associated with the collection.
+ID for the payout program associated with the collection.
 
 Example: `101`
 
@@ -188,10 +174,9 @@ Example: `101`
 
 <details>
 
-<summary>version&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>ContractVersion</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>version    -    <em><mark style="color:blue;">ContractVersion</mark></em>    -    Optional</summary>
 
-
-> The version of the contract used for the collection.
+The version of the contract used for the collection.
 
 Example: `v1.0.0`
 
@@ -199,10 +184,9 @@ Example: `v1.0.0`
 
 <details>
 
-<summary>type&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>type    -    <em><mark style="color:blue;">string</mark></em>    -    Optional</summary>
 
-
-> The type or category of the collection.
+The type or category of the collection.
 
 Example: `art`
 
@@ -210,10 +194,9 @@ Example: `art`
 
 <details>
 
-<summary>is_custom_event&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>is_custom_event    -    <em><mark style="color:blue;">boolean</mark></em>    -    Optional</summary>
 
-
-> Flag to indicate if the collection uses custom events.
+Flag to indicate if the collection uses custom events.
 
 Example: `false`
 
@@ -221,10 +204,9 @@ Example: `false`
 
 <details>
 
-<summary>show_on_home_page&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>show_on_home_page    -    <em><mark style="color:blue;">boolean</mark></em>    -    Optional</summary>
 
-
-> Flag to indicate if the collection should be displayed on the home page.
+Flag to indicate if the collection should be displayed on the home page.
 
 Example: `true`
 
@@ -232,16 +214,15 @@ Example: `true`
 
 <details>
 
-<summary>show_on_collection_page&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;<mark style="color:blue;"><em>boolean</em></mark>&nbsp;&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;&nbsp;Optional</summary>
+<summary>show_on_collection_page    -    <em><mark style="color:blue;">boolean</mark></em>    -    Optional</summary>
 
-
-> Flag to indicate if the collection should be displayed on the collection page.
+Flag to indicate if the collection should be displayed on the collection page.
 
 Example: `true`
 
 </details>
 
----
+***
 
 ## Example Usage
 

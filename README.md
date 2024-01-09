@@ -1,19 +1,19 @@
 # Welcome!
 
-## Welcome to hREA Developer Docs
+## Welcome to Chainstarters Developer Docs
 
-Welcome to hREA! Here you'll find all the documentation you need to get up and running with the hREA APIs. While this documentation discusses a set of GraphQL APIs, which could in general have multiple language implementations, all of this documentation is at this time focused on a library written for browser and nodejs based javascript projects.
+Welcome to Chainstarters! Here you'll find all the documentation you need to get up and running with the Chainstarters APIs. While this documentation discusses a set of GraphQL APIs, which could in general have multiple language implementations, all of this documentation is at this time focused on a library written for browser and nodejs based javascript projects. All examples are written in TypeScript to provide the most comprehensive tutorials.
 
 {% hint style="info" %}
-If you're looking for more general information about hREA, check out the main website [https://hrea.io](https://hrea.io)
+If you're looking for more general information about Chainstarters, check out the main website [https://www.chainstarters.com](https://www.chainstarters.com).
 {% endhint %}
 
 ## Want to jump right in?
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
 
-{% content-ref url="quick-start.md" %}
-[quick-start.md](quick-start.md)
+{% content-ref url="reference/graphql-api-reference/collections/create-a-collection.md" %}
+[create-a-collection.md](reference/graphql-api-reference/collections/create-a-collection.md)
 {% endcontent-ref %}
 
 ## Want to deep dive?
