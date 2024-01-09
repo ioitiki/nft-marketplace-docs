@@ -8,7 +8,7 @@ description: Creates a Collection and supporting smart contracts.
 
 <details>
 
-<summary><mark style="color:blue;"><strong>name</strong></mark> | <em>string</em> | <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><mark style="color:blue;"><strong>name</strong></mark>   -   <em>string</em>   -   <mark style="color:orange;">Required</mark></summary>
 
 **The name of the collection.**
 
