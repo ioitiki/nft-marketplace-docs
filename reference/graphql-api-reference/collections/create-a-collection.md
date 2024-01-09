@@ -8,7 +8,7 @@ description: Creates a Collection and supporting smart contracts.
 
 <details>
 
-<summary><mark style="color:blue;"><strong>name</strong></mark>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="opacity: 0.7;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary><mark style="color:blue;"><strong>name</strong></mark>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color: green;"><em>string</em></mark>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 **The name of the collection.**
 
