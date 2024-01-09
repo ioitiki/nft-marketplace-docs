@@ -8,7 +8,7 @@ description: Creates a Collection and supporting smart contracts.
 
 <details>
 
-<summary><mark style="color:blue;"><strong>name</strong></mark>   -   <em>string</em>   -   <mark style="color:orange;">Required</mark></summary>
+<summary><mark style="color:blue;"><strong>name</strong></mark>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 **The name of the collection.**
 
@@ -18,7 +18,7 @@ Example: `My first Collection`
 
 <details>
 
-<summary><strong>symbol</strong>   -   <em>string</em>   -   <mark style=""> Deprecated</mark></summary>
+<summary><mark style="color:blue;"><strong>symbol</strong></mark>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:red;">Deprecated</mark></summary>
 
 **A short symbol or abbreviation for the collection.**
 
@@ -28,7 +28,7 @@ Example: `MFC`
 
 <details>
 
-<summary><strong>description</strong>   -   <em>string</em>   -   Optional</summary>
+<summary><strong>description</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **A brief description of the collection.**
 
@@ -38,7 +38,7 @@ Example: `A unique collection of digital artworks.`
 
 <details>
 
-<summary><strong>logo_image</strong>   -   <em>string</em>   -   <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>logo_image</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **URL or path to the logo image for the collection.**
 
@@ -48,7 +48,7 @@ Example: `https://example.com/logo.png`
 
 <details>
 
-<summary><strong>cover_image</strong>   -   <em>string</em>   -   Optional</summary>
+<summary><strong>cover_image</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **URL or path to the cover image for the collection.**
 
@@ -58,7 +58,7 @@ Example: `https://example.com/cover.jpg`
 
 <details>
 
-<summary><strong>seller_fee_basis_points</strong>   -   <em>number</em>   -   Optional</summary>
+<summary><strong>seller_fee_basis_points</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>number</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **The seller fee in basis points.**
 
@@ -68,7 +68,7 @@ Example: `250` (representing 2.5%)
 
 <details>
 
-<summary><strong>minting_payer</strong>   -   <em>string</em>   -   <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>minting_payer</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **Wallet address responsible for paying minting fees.**
 
@@ -78,7 +78,7 @@ Example: `0x123abc...`
 
 <details>
 
-<summary><strong>blockchain</strong>   -   <em>string</em>   -   <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>blockchain</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.**
 
@@ -88,7 +88,7 @@ Example: `ethereum`
 
 <details>
 
-<summary><strong>network</strong>   -   <em>string</em>   -   <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>network</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **The network name.**
 
@@ -98,7 +98,7 @@ Example: `mainnet`
 
 <details>
 
-<summary><strong>is_mainnet</strong>   -   <em>boolean</em>   -   <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>is_mainnet</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>boolean</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **Flag to indicate if the collection is on the main network.**
 
@@ -108,7 +108,7 @@ Example: `true`
 
 <details>
 
-<summary><strong>is_public</strong>   -   <em>boolean</em>   -   <span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
+<summary><strong>is_public</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>boolean</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<span data-gb-custom-inline data-tag="emoji" data-code="1f7e0">🟠</span> Required</summary>
 
 **Flag to indicate if the collection is public.**
 
@@ -118,7 +118,7 @@ Example: `true`
 
 <details>
 
-<summary><strong>external_link</strong>   -   <em>string</em>   -   Optional</summary>
+<summary><strong>external_link</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **External link to the collection website or page.**
 
@@ -128,7 +128,7 @@ Example: `https://example.com/collection`
 
 <details>
 
-<summary><strong>[social_media_links]</strong>   -   <em>string</em>   -   Optional</summary>
+<summary><strong>[social_media_links]</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **Links to various social media profiles associated with the collection (telegram, discord, TikTok, WhatsApp, Facebook, Instagram, Twitter, YouTube, LinkedIn).**
 
@@ -148,7 +148,7 @@ Example:
 
 <details>
 
-<summary><strong>payout_program_id</strong>   -   <em>number</em>   -   Optional</summary>
+<summary><strong>payout_program_id</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>number</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **ID for the payout program associated with the collection.**
 
@@ -158,7 +158,7 @@ Example: `101`
 
 <details>
 
-<summary><strong>version</strong>   -   <em>ContractVersion</em>   -   Optional</summary>
+<summary><strong>version</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>ContractVersion</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **The version of the contract used for the collection.**
 
@@ -168,7 +168,7 @@ Example: `v1.0.0`
 
 <details>
 
-<summary><strong>type</strong>   -   <em>string</em>   -   Optional</summary>
+<summary><strong>type</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>string</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **The type or category of the collection.**
 
@@ -178,7 +178,7 @@ Example: `art`
 
 <details>
 
-<summary><strong>is_custom_event</strong>   -   <em>boolean</em>   -   Optional</summary>
+<summary><strong>is_custom_event</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>boolean</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **Flag to indicate if the collection uses custom events.**
 
@@ -188,7 +188,7 @@ Example: `false`
 
 <details>
 
-<summary><strong>show_on_home_page</strong>   -   <em>boolean</em>   -   Optional</summary>
+<summary><strong>show_on_home_page</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>boolean</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **Flag to indicate if the collection should be displayed on the home page.**
 
@@ -198,7 +198,7 @@ Example: `true`
 
 <details>
 
-<summary><strong>show_on_collection_page</strong>   -   <em>boolean</em>   -   Optional</summary>
+<summary><strong>show_on_collection_page</strong>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em>boolean</em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;Optional</summary>
 
 **Flag to indicate if the collection should be displayed on the collection page.**
 
