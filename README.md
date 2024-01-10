@@ -28,7 +28,8 @@ If you're looking for more general information about Chainstarters, check out th
 {% endhint %}
 
 {% hint style="info" %}
-To view the GraphQL schema and run functions on the web goto `https://cs-<<PROJECT_ID>>.prime-jackpot-expanse.chainstarters.io/prod`
+To view the GraphQL schema and run functions on the web goto
+`https://cs-<<PROJECT_ID>>.prime-jackpot-expanse.chainstarters.io/prod`
 {% endhint %}
 
 ## Want to jump right in?
