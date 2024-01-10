@@ -1,14 +1,15 @@
 # Wallet
 
 {% hint style="info" %}
-All parameters will be passed as properties of an object called input; ie:
+All parameters will be passed as properties of an object called input.
 {% code %}
 ```typescript
 const variables = { input: { ...params } }
 ```
 {% endcode %}
 {% endhint %}
-
+***
+***
 <!--  -->
 ### Get User Wallet
 
