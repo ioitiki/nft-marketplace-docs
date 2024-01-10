@@ -24,7 +24,7 @@ mutation createCollection($createCollectionInput: CreateCollectionInput) {
 
 <details>
 
-<summary>name    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>name&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 The name of the collection.
 
@@ -34,7 +34,7 @@ Example: `My first Collection`
 
 <details>
 
-<summary>symbol    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:red;">Deprecated</mark></summary>
+<summary>symbol&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:red;">Deprecated</mark></summary>
 
 A short symbol or abbreviation for the collection.
 
@@ -44,7 +44,7 @@ Example: `MFC`
 
 <details>
 
-<summary>description    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>description&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 A brief description of the collection.
 
@@ -54,7 +54,7 @@ Example: `A unique collection of digital artworks.`
 
 <details>
 
-<summary>logo_image    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>logo_image&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 URL or path to the logo image for the collection.
 
@@ -64,7 +64,7 @@ Example: `https://example.com/logo.png`
 
 <details>
 
-<summary>cover_image    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>cover_image&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 URL or path to the cover image for the collection.
 
@@ -74,7 +74,7 @@ Example: `https://example.com/cover.jpg`
 
 <details>
 
-<summary>seller_fee_basis_points    -    <em><mark style="color:blue;">number</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>seller_fee_basis_points&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">number</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 The seller fee in basis points.
 
@@ -84,7 +84,7 @@ Example: `250` (representing 2.5%)
 
 <details>
 
-<summary>minting_payer    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>minting_payer&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 Wallet address responsible for paying minting fees.
 
@@ -94,7 +94,7 @@ Example: `0x123abc...`
 
 <details>
 
-<summary>blockchain    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>blockchain&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 The blockchain on which the collection is based, restricted to 'ethereum' or 'polygon'.
 
@@ -104,7 +104,7 @@ Example: `ethereum`
 
 <details>
 
-<summary>network    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>network&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 The network name.
 
@@ -114,7 +114,7 @@ Example: `mainnet`
 
 <details>
 
-<summary>is_mainnet    -    <em><mark style="color:blue;">boolean</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>is_mainnet&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">boolean</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 Flag to indicate if the collection is on the main network.
 
@@ -124,7 +124,7 @@ Example: `true`
 
 <details>
 
-<summary>is_public    -    <em><mark style="color:blue;">boolean</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>is_public&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">boolean</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 Flag to indicate if the collection is public.
 
@@ -134,7 +134,7 @@ Example: `true`
 
 <details>
 
-<summary>external_link    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>external_link&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 External link to the collection website or page.
 
@@ -144,7 +144,7 @@ Example: `https://example.com/collection`
 
 <details>
 
-<summary>[social_media_links]    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>[social_media_links]&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 Links to various social media profiles associated with the collection (telegram\_link, discord\_link, tiktok\_link, whatsapp\_link, facebook\_link, instagram\_link, twitter\_link, youtube\_link, linkedin\_link).
 
@@ -164,7 +164,7 @@ Example:
 
 <details>
 
-<summary>payout_program_id    -    <em><mark style="color:blue;">number</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>payout_program_id&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">number</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 ID for the payout program associated with the collection.
 
@@ -174,7 +174,7 @@ Example: `101`
 
 <details>
 
-<summary>version    -    <em><mark style="color:blue;">ContractVersion</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>version&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">ContractVersion</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 The version of the contract used for the collection.
 
@@ -184,7 +184,7 @@ Example: `v1.0.0`
 
 <details>
 
-<summary>type    -    <em><mark style="color:blue;">string</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>type&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 The type or category of the collection.
 
@@ -194,7 +194,7 @@ Example: `art`
 
 <details>
 
-<summary>is_custom_event    -    <em><mark style="color:blue;">boolean</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>is_custom_event&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">boolean</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 Flag to indicate if the collection uses custom events.
 
@@ -204,7 +204,7 @@ Example: `false`
 
 <details>
 
-<summary>show_on_home_page    -    <em><mark style="color:blue;">boolean</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>show_on_home_page&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">boolean</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 Flag to indicate if the collection should be displayed on the home page.
 
@@ -214,7 +214,7 @@ Example: `true`
 
 <details>
 
-<summary>show_on_collection_page    -    <em><mark style="color:blue;">boolean</mark></em>    -    <mark style="color:green;">Optional</mark></summary>
+<summary>show_on_collection_page&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">boolean</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:green;">Optional</mark></summary>
 
 Flag to indicate if the collection should be displayed on the collection page.
 
