@@ -1,3 +1,22 @@
+---
+cover: https://chainstarters.com/wp-content/uploads/2021/07/cropped-cslogosquare.png
+coverY: 0
+layout:
+  cover:
+    visible: true
+    size: full
+  title:
+    visible: true
+  description:
+    visible: true
+  tableOfContents:
+    visible: true
+  outline:
+    visible: true
+  pagination:
+    visible: true
+---
+
 # Welcome!
 
 ## Welcome to Chainstarters Developer Docs

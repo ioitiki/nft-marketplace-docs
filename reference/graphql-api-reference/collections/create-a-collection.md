@@ -8,7 +8,7 @@ description: Creates a Collection and supporting smart contracts.
 
 ***
 
-{% code title="mutation.gql" lineNumbers="true" %}
+{% code title="mutation.gql" %}
 ```graphql
 mutation createCollection($createCollectionInput: CreateCollectionInput) {
   createCollection(createCollectionInput: $createCollectionInput)
