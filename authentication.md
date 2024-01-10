@@ -42,28 +42,32 @@ We are currently working on an more permanent admin token solution that would al
 
 {% code title="auth-request.ts" fullWidth="false" %}
 ```typescript
+import axios, { type AxiosInstance, type AxiosRequestConfig } from 'axios';
+import { print, type DocumentNode } from 'graphql';
 
-import { GraphQLResponse } from '@apollo/server';
-import axios, { AxiosInstance, AxiosResponse } from 'axios'
-import { DocumentNode, print } from 'graphql';
-
-class ExampleSend {
+export default class AuthQuery {
   private axios: AxiosInstance;
 
   constructor() {
-    this.axios = axios.create()
-    this.axios.defaults.baseURL = 'https://cs-<PROJECT_ID>.prime-jackpot-expanse.chainstarters.io'
-    this.axios.defaults.headers.common['Authorization'] = 'owner:super-secret-token'
-    this.axios.defaults.headers.common['Content-Type'] = 'application/json'
+    const config: AxiosRequestConfig = {
+      baseURL: `https://cs-${Bun.env.PROJECT_ID}.prime-jackpot-expanse.chainstarters.io`,
+      headers: {
+        'Authorization': `owner:${Bun.env.OWNER_API_KEY}`,
+        'Content-Type': 'application/json'
+      }
+    };
+
+    this.axios = axios.create(config);
   }
 
-  async send(query: DocumentNode) {
+  async send(query: DocumentNode, variables?: Record<string, unknown>) {
     try {
-      const response: AxiosResponse<GraphQLResponse> = await axios.post('/prod', {
-        query: print(query)
+      const response = await this.axios.post('/prod', {
+        query: print(query),
+        variables
       });
 
-      return response.data;
+      return response.data.data;
     } catch (error) {
       console.error('Error fetching data: ', error);
       throw error;

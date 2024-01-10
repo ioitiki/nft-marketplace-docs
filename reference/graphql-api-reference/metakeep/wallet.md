@@ -18,7 +18,40 @@ Retrieve a user's wallet address given their email address.
 
 {% code title="getUserWallet.ts" %}
 ```typescript
-// Some code
+import gql from 'graphql-tag'
+import AuthQuery from './';
+
+const getUserWalletQuery = gql`
+  query getUserWallet($input: GetUserWalletInput!) {
+    getUserWallet(input: $input)
+  }
+`;
+
+async function getUserWallet(email: string) {
+  const authQuery = new AuthQuery();
+
+  try {
+
+    const response = await authQuery.send(
+      getUserWalletQuery,
+      { input: { email } }
+    );
+
+    return response.getUserWallet;
+
+  } catch (error) {
+    console.error('Error fetching user wallet address:', error);
+    return null;
+  }
+}
+
+// Example usage
+const ret = await getUserWallet('joe.smith123@example.com')
+
+console.log('wallet address: ', ret)
+// Output
+// wallet address:  0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7
+
 ```
 {% endcode %}
 
