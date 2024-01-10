@@ -8,8 +8,9 @@ const variables = { input: { ...params } }
 ```
 {% endcode %}
 {% endhint %}
+
 ***
-***
+
 <!--  -->
 ### Get User Wallet
 
