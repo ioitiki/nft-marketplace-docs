@@ -27,6 +27,10 @@ Welcome to Chainstarters! Here you'll find all the documentation you need to get
 If you're looking for more general information about Chainstarters, check out the main website [https://www.chainstarters.com](https://www.chainstarters.com).
 {% endhint %}
 
+{% hint style="info" %}
+To view the GraphQL schema and run functions on the web goto `https://cs-<<PROJECT_ID>>.prime-jackpot-expanse.chainstarters.io/prod`
+{% endhint %}
+
 ## Want to jump right in?
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
