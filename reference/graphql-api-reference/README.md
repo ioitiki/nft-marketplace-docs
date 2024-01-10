@@ -15,5 +15,13 @@ Info item 2
 Each data source listed below is a collection of methods accessible via the GraphQL API.
 
 {% content-ref url="collections/" %}
+[metakeep](metakeep/)
+{% endcontent-ref %}
+
+{% content-ref url="collections/" %}
 [collections](collections/)
+{% endcontent-ref %}
+
+{% content-ref url="collections/" %}
+[nfts](nfts/)
 {% endcontent-ref %}
