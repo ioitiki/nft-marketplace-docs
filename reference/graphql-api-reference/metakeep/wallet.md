@@ -38,8 +38,6 @@ Example: `0x123abc456def789ghi012jkl345mno678pqrs90t`
 
 </details>
 
-***
-
 #### Basic Usage
 
 {% code title="getUserWallet.ts" %}
