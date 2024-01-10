@@ -26,8 +26,6 @@ Example: `joe.smith123@example.com`
 
 </details>
 
-***
-
 #### Return
 
 <details>
