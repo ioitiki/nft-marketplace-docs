@@ -1,17 +1,19 @@
+---
+description: Methods for interacting with MetaKeep wallet API.
+---
+
 # Wallet
 
 {% hint style="info" %}
 All parameters will be passed as properties of an object called input.
-{% code %}
-```typescript
-const variables = { input: { ...params } }
-```
-{% endcode %}
+
+> `const variables = { input: { ...params } }`
 {% endhint %}
+
+## Queries
 
 ***
 
-<!--  -->
 ### Get User Wallet
 
 Retrieve a user's wallet address given their email address.
@@ -20,7 +22,7 @@ Retrieve a user's wallet address given their email address.
 
 <details>
 
-<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>email   -   <em><mark style="color:blue;">string</mark></em>   -   <mark style="color:orange;">Required</mark></summary>
 
 The email address of the user.
 
@@ -32,7 +34,7 @@ Example: `joe.smith123@example.com`
 
 <details>
 
-<summary>wallet address&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em></summary>
+<summary>wallet address   -   <em><mark style="color:blue;">string</mark></em></summary>
 
 The wallet address for the given email address.
 
@@ -57,10 +59,12 @@ async function getUserWallet(email: string) {
   const authQuery = new AuthQuery();
 
   try {
+  
+    const variables = { input: { email } }
 
     const response = await authQuery.send(
       getUserWalletQuery,
-      { input: { email } }
+      variables
     );
 
     return response.getUserWallet;
@@ -82,7 +86,7 @@ console.log('wallet address: ', ret)
 {% endcode %}
 
 ***
-<!--  -->
+
 ### Get User Wallet Batch
 
 Retrieve a user's wallet address given their email address.
@@ -100,7 +104,7 @@ Retrieve a user's wallet address given their email address.
 #### Return
 
 ***
-<!--  -->
+
 ### Balance Of ERC-1155
 
 Retrieve a user's wallet address given their email address.
@@ -118,10 +122,8 @@ Retrieve a user's wallet address given their email address.
 #### Return
 
 ***
-<!--  -->
-### Balance Of ERC-20
 
-### Get User Wallet
+### Balance Of ERC-20
 
 Retrieve a user's wallet address given their email address.
 
