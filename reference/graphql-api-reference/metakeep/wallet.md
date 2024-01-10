@@ -14,7 +14,8 @@ All parameters will be passed as properties of an object called input.
 
 ***
 
-### Get User Wallet
+<!--  -->
+### getUserWallet
 
 Retrieve a user's wallet address given their email address.
 
@@ -86,8 +87,8 @@ console.log('wallet address: ', ret)
 {% endcode %}
 
 ***
-
-### Get User Wallet Batch
+<!--  -->
+### getUserWalletsBatch
 
 Retrieve a user's wallet address given their email address.
 
