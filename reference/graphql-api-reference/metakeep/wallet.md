@@ -17,6 +17,7 @@ Retrieve a user's wallet address given their email address.
 
 #### Return
 
+***
 <!--  -->
 ### Get User Wallet Batch
 
@@ -34,6 +35,7 @@ Retrieve a user's wallet address given their email address.
 
 #### Return
 
+***
 <!--  -->
 ### Balance Of ERC-1155
 
@@ -51,6 +53,7 @@ Retrieve a user's wallet address given their email address.
 
 #### Return
 
+***
 <!--  -->
 ### Balance Of ERC-20
 
@@ -69,3 +72,5 @@ Retrieve a user's wallet address given their email address.
 #### Parameters
 
 #### Return
+
+***
