@@ -5,10 +5,8 @@ description: >-
   contract and a Sales Contract.
 ---
 
-# Collections
-
-
+# MetaKeep
 
 {% hint style="info" %}
-Because deploying smart contracts can take several mins to deploy we recommend polling for the the completed collection.
+> If you would like to learn more about MetaKeep and gasless transactions visit their docs at [https://docs.metakeep.xyz](https://docs.metakeep.xyz).
 {% endhint %}

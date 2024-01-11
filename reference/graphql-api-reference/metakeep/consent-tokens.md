@@ -5,7 +5,3 @@ description: >-
 ---
 
 # Consent Tokens
-
-{% hint style="info" %}
-> If you would like to learn more about MetaKeep and gasless transactions visit their docs at [https://docs.metakeep.xyz](https://docs.metakeep.xyz).
-{% endhint %}
