@@ -26,7 +26,7 @@ Retrieve a user's wallet address given their email address.
 
 <details>
 
-<summary>email   -   <em><mark style="color:blue;">string</mark></em>   -   <mark style="color:orange;">Required</mark></summary>
+<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
 The email address of the user.
 
@@ -38,7 +38,7 @@ Example: `joe.smith123@example.com`
 
 <details>
 
-<summary>wallet address   -   <em><mark style="color:blue;">string</mark></em></summary>
+<summary>wallet address&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em></summary>
 
 The wallet address for the given email address.
 
@@ -91,27 +91,90 @@ console.log('wallet address: ', ret)
 
 ***
 
-
-
+<!--  -->
+<!--  -->
 <!--  -->
 ### getUserWalletsBatch
 
 Retrieve a list of user wallets.
 
+{% hint style="info" %}
+From the MetaKeep docs:
+> For user privacy and security, and to prevent abuse, you can only query wallets for users that have been queried previously using the User Wallet API. The API response will be missing wallets for users that have not been queried previously.
+{% endhint %}
+
+#### Parameters
+
+<details>
+
+<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string[]</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+
+The email address of the user.
+
+Example: `joe.smith123@example.com`
+
+</details>
+
+#### Return
+
+<details>
+
+<summary>wallet address&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em></summary>
+
+The wallet address for the given email address.
+
+Example: `0x123abc456def789ghi012jkl345mno678pqrs90t`
+
+</details>
+
 #### Basic Usage
 
 {% code title="getUserWallet.ts" %}
 ```typescript
-// Some code
+import gql from 'graphql-tag'
+import AuthQuery from '.';
+
+const getUserWalletsBatchQuery = gql`
+  query getUserWalletsBatch($input: GetUserWalletsBatchInput!) {
+    getUserWalletsBatch(input: $input)
+  }
+`;
+
+async function getUserWalletsBatch(emails: string[]) {
+  const authQuery = new AuthQuery();
+
+  try {
+  
+    const variables = { input: { emails } }
+
+    const response = await authQuery.send(
+      getUserWalletsBatchQuery,
+      variables
+    );
+
+    return response.getUserWalletsBatch;
+
+  } catch (error) {
+    console.error('Error fetching user wallet address:', error);
+    return null;
+  }
+}
+
+// Example usage
+const ret = await getUserWalletsBatch(['joe.smith123@example.com', 'bob.smith123@example.com'])
+
+console.log('wallet addresses: ', ret)
+// Output
+// wallet address:  0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7
+
 ```
 {% endcode %}
 
-#### Parameters
-
-#### Return
-
 ***
 
+<!--  -->
+<!--  -->
+<!--  -->
 ### Balance Of ERC-1155
 
 Retrieve a user's wallet address given their email address.
@@ -130,9 +193,9 @@ Retrieve a user's wallet address given their email address.
 
 ***
 
-
-
-
+<!--  -->
+<!--  -->
+<!--  -->
 ### Balance Of ERC-20
 
 Retrieve a user's wallet address given their email address.
