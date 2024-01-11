@@ -23,7 +23,7 @@ Chainstarters enables gasless transactions for non-custodial end-user wallets th
 ```
 {% endcode %}
 
-{% code title="getUserWallet.ts" %}
+{% code %}
 ```typescript
 const consent = await sdk.getConsent(consentToken);
 ```
