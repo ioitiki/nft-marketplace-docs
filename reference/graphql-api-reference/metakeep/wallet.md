@@ -99,7 +99,7 @@ Retrieve a list of user wallets.
 
 {% hint style="info" %}
 From the MetaKeep docs:
-> For user privacy and security, and to prevent abuse, you can only query wallets for users that have been queried previously using the User Wallet API. The API response will be missing wallets for users that have not been queried previously.
+> For user privacy and security, and to prevent abuse, you can only query wallets for users that have been queried previouslT using the User Wallet API. The API response will be missing wallets for users that have not been queried previously.
 {% endhint %}
 
 #### Parameters
@@ -122,8 +122,13 @@ Example: [`joe.smith123@example.com`]
 
 The wallet address for the given email address.
 
-Example: `0x123abc456def789ghi012jkl345mno678pqrs90t`
-
+Example:
+```
+wallet addresses:  {
+  "bob.smith123@example.com": "0x9a425b93E13E6D451360445A5eA86C2e52d35C75",
+  "joe.smith123@example.com": "0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7",
+}
+```
 </details>
 
 #### Basic Usage
@@ -164,7 +169,10 @@ const ret = await getUserWalletsBatch(['joe.smith123@example.com', 'bob.smith123
 
 console.log('wallet addresses: ', ret)
 // Output
-// wallet address:  0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7
+// wallet addresses:  {
+//   "joe.smith123@example.com": "0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7",
+//   "bob.smith123@example.com": "0x9a425b93E13E6D451360445A5eA86C2e52d35C75",
+// }
 
 ```
 {% endcode %}
