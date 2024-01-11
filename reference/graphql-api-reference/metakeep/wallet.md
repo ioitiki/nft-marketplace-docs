@@ -103,7 +103,7 @@ Retrieve a list of user wallets.
 
 {% hint style="info" %}
 From the MetaKeep docs:
-> For user privacy and security, and to prevent abuse, you can only query wallets for users that have been queried previouslT using the User Wallet API. The API response will be missing wallets for users that have not been queried previously.
+> For user privacy and security, and to prevent abuse, you can only query wallets for users that have been queried previously using the User Wallet API (ie. getUserWallet). The API response will be missing wallets for users that have not been queried previously.
 {% endhint %}
 
 #### Parameters
