@@ -9,7 +9,7 @@
   * [MetaKeep](reference/graphql-api-reference/metakeep/README.md)
     * [Wallet](reference/graphql-api-reference/metakeep/wallet.md)
     * [Transactions](reference/graphql-api-reference/metakeep/transactions.md)
-    * [Lambda](reference/graphql-api-reference/metakeep/lambda.md)
+    * [Consent Tokens](reference/graphql-api-reference/metakeep/consent-tokens.md)
     * [Signing](reference/graphql-api-reference/metakeep/signing.md)
   * [Collections](reference/graphql-api-reference/collections/README.md)
     * [Create a Collection](reference/graphql-api-reference/collections/create-a-collection.md)
