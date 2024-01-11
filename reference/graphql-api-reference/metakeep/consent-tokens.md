@@ -8,7 +8,7 @@ description: >-
 
 ## Understanding Consent Tokens
 
-Chainstarters enables gasless transactions for non-custodial end-user wallets through the innovative use of consent tokens. This process begins with Chainstarters' API, which is instrumental in generating a consent token tailored to a specific blockchain transaction for each user. Subsequently, this consent token is utilized in conjunction with the MetaKeep SDK. Here, the end user is prompted to complete the transaction by signing the consent token. Once the consent token is signed, MetaKeep takes the initiative to execute the transaction, absorbing the gas fees on behalf of the end users and charging you (the develop) later. This integration between Chainstarters and MetaKeep SDK streamlines the transaction process, ensuring a user-friendly and cost-efficient experience.
+Chainstarters enables gasless transactions for non-custodial end-user wallets through the innovative use of consent tokens. This process begins with Chainstarters' API, which--using MetaKeep--generates a consent token tailored to a specific blockchain transaction for each user. Subsequently, this consent token is utilized in conjunction with the MetaKeep SDK. Here, the end user is prompted to complete the transaction by signing the consent token. Once the consent token is signed, MetaKeep takes the initiative to execute the transaction, absorbing the gas fees on behalf of the end users and charging you (the develop) later. This integration between Chainstarters and MetaKeep SDK streamlines the transaction process, ensuring a user-friendly and cost-efficient experience.
 
 ### MetaKeep SDK
 
