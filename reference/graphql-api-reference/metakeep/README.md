@@ -1,10 +1,11 @@
+---
+description: >-
+  Chainstarters has partnered with MetaKeep to provide the best wallet experience available.
+---
+
 # MetaKeep
 
-{% hint style="info" %}
-> If you would like to learn more about MetaKeep and gasless transactions visit their docs at [https://docs.metakeep.xyz](https://docs.metakeep.xyz).
-{% endhint %}
-
-> ### About MetaKeep
+> ### From MetaKeep:
 >
 > Our singular mission is to create an inflection point in Web3 and make it mainstream.
 >
@@ -15,3 +16,7 @@
 > As a developer, you can even build your own Non-Custodial Wallet that scales infinitely without re-inventing security, usability, and partner integrations on top of MetaKeep.
 >
 > © Copyright 2024, Passbird Research Inc.
+
+{% hint style="info" %}
+> If you would like to learn more about MetaKeep and gasless transactions visit their docs at [https://docs.metakeep.xyz](https://docs.metakeep.xyz).
+{% endhint %}
