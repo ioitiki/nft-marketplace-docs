@@ -14,9 +14,8 @@ All parameters will be passed as properties of an object called input.
 
 ***
 
-
-
-
+<!--  -->
+<!--  -->
 <!--  -->
 ### getUserWallet
 
@@ -107,11 +106,11 @@ From the MetaKeep docs:
 
 <details>
 
-<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string[]</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>emails&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string[]</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
-The email address of the user.
+An array of email addresses.
 
-Example: `joe.smith123@example.com`
+Example: [`joe.smith123@example.com`]
 
 </details>
 
