@@ -43,11 +43,23 @@ Generate a consent token that a user can sign to spend their ERC20 tokens.
 
 <summary>amount_in_pennies&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
 
-The amount_in_pennies address of the user.
+The amount_in_pennies the user wishes to spend.
 
 Example $1:
 
 ```100```
+
+</details>
+
+<details>
+
+<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+
+The email address of the user.
+
+Example:
+
+```joe.smith123@example.com```
 
 </details>
 

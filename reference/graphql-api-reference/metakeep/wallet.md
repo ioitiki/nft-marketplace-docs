@@ -166,7 +166,7 @@ async function getUserWalletsBatch(emails: string[]) {
     return response.getUserWalletsBatch;
 
   } catch (error) {
-    console.error('Error fetching user wallet address:', error);
+    console.error('Error fetching user wallet addresses:', error);
     return null;
   }
 }
