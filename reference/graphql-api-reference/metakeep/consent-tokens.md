@@ -84,25 +84,30 @@ Example:
 import gql from 'graphql-tag'
 import AuthQuery from './';
 
-const getUserWalletQuery = gql`
-  query getUserWallet($input: GetUserWalletInput!) {
-    getUserWallet(input: $input)
+const spendERC20Mutation = gql`
+  mutation spendERC20($input: SpendERC20Input!) {
+    spendERC20(input: $input)
   }
 `;
 
-async function getUserWallet(email: string) {
+async function spendERC20(email: string) {
   const authQuery = new AuthQuery();
 
   try {
   
-    const variables = { input: { email } }
+    const variables = {
+      input: {
+        amount_in_pennies: '100',
+        email
+      }
+    }
 
     const response = await authQuery.send(
-      getUserWalletQuery,
+      spendERC20Mutation,
       variables
     );
 
-    return response.getUserWallet;
+    return response.spendERC20;
 
   } catch (error) {
     console.error('Error fetching user wallet address:', error);
@@ -111,11 +116,17 @@ async function getUserWallet(email: string) {
 }
 
 // Example usage
-const ret = await getUserWallet('joe.smith123@example.com')
+const ret = await spendERC20('joe.smith123@example.com')
 
-console.log('wallet address: ', ret)
+console.log('consent token: ', ret)
 // Output
-// wallet address:  0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7
+// consent token:  CrgBAQIDAHjiEKFH6nAKPy0nQgxx5fOl3UqPIQ8gSEt0j-xA9g811QGv7Cnbp4Gxr54OcZ6Hc5T7AAAAfjB8BgkqhkiG9w0BBwagbzBtAgEAMGgGCSqGSIb3DQEHATAeBglghkgBZQMEAS4wEQQM-4nsTNCxsBNG7-agAgEQgDsEBSWm7hvlr7xBbEmAz3KYGQfhMK-Vtj0NDBeuRnygvtEJJ8ycE8PlC0pmnMC620gXHOwoVOhxUAwkxBK1AwoM47tEhjavdMEcaFsrEqQDKBZvG1ujU3EutYNA-ZwiqmrnZkrJyYPIj5cyFUj34XsAEkCJ3OvLj3z17RUjweGieRcOHnssB5OG7CaD068VR50O-gJGMnnRoNalJo5y4_GFc5JAlvWc01zZKgYLrjlMrgKzRdn5TocjRX97--8YFB-1X2hxuGwHAP9XmOEzjtNkgFMVtIht1f5BiOkKv5LRN0OxWZXVk23VVmxCBNOUoBooXElj8mt5URhRxlWJytHPztpy5UqaqkGQh0J4e4bXEZxpNdb73LiGSCfJllcdpC-LP1iAf_Ssngqq_X1xCq7KzddvXGI52lSPM99eSOM2AhP24pb1LGBEFojIBF5-xS2AOyXIJiX9vhkWayXeNS1gnrQoQjVcnTp2X_Ngj_M4EzWRtej5EroAo5WYGxeDmWgx1PHMmPIYLr_-ZQ_PsqXbfX_dcLlS2_ivVgrv8sPsWDFsXbPoOf4EnO0oAtEXmztHKz5H1EgNNu1pkBxr-Tnxk4NN4f4ZPDnhGIegqy7uK6EfLyuejQVYTQpQwDM1xtdE6DBQ0SywjTrFcSyegMT9sY_4IAE=
+
+
+
+/* On the front end: **/
+const consentToken = await spendERC20('joe.smith123@example.com')
+const consent = await sdk.getConsent(consentToken);
 
 ```
 {% endcode %}
