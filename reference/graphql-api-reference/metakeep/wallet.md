@@ -14,6 +14,9 @@ All parameters will be passed as properties of an object called input.
 
 ***
 
+
+
+
 <!--  -->
 ### getUserWallet
 
@@ -87,10 +90,13 @@ console.log('wallet address: ', ret)
 {% endcode %}
 
 ***
+
+
+
 <!--  -->
 ### getUserWalletsBatch
 
-Retrieve a user's wallet address given their email address.
+Retrieve a list of user wallets.
 
 #### Basic Usage
 
@@ -123,6 +129,9 @@ Retrieve a user's wallet address given their email address.
 #### Return
 
 ***
+
+
+
 
 ### Balance Of ERC-20
 
