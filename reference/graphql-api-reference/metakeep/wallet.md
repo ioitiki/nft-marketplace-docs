@@ -29,7 +29,9 @@ Retrieve a user's wallet address given their email address.
 
 The email address of the user.
 
-Example: `joe.smith123@example.com`
+Example:
+
+```joe.smith123@example.com```
 
 </details>
 
@@ -41,7 +43,9 @@ Example: `joe.smith123@example.com`
 
 The wallet address for the given email address.
 
-Example: `0x123abc456def789ghi012jkl345mno678pqrs90t`
+Example:
+
+```0x123abc456def789ghi012jkl345mno678pqrs90t```
 
 </details>
 
@@ -110,7 +114,10 @@ From the MetaKeep docs:
 
 An array of email addresses.
 
-Example: [`joe.smith123@example.com`]
+Example:
+```
+['joe.smith123@example.com']
+```
 
 </details>
 
