@@ -15,4 +15,5 @@
     * [Create a Collection](reference/graphql-api-reference/collections/create-a-collection.md)
   * [Digital Assets](reference/graphql-api-reference/nfts/README.md)
     * [Create a Digital Asset](reference/graphql-api-reference/nfts/create-an-nft.md)
-  * [Companies](reference/graphql-api-reference/companies.md)
+  * [Companies](reference/graphql-api-reference/companies/README.md)
+    * [Create a company](reference/graphql-api-reference/companies/create-a-company.md)

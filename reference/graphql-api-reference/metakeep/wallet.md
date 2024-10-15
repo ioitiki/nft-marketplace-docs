@@ -14,9 +14,6 @@ All parameters will be passed as properties of an object called input.
 
 ***
 
-<!--  -->
-<!--  -->
-<!--  -->
 ### getUserWallet
 
 Retrieve a user's wallet address given their email address.
@@ -25,13 +22,13 @@ Retrieve a user's wallet address given their email address.
 
 <details>
 
-<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>email   -   <em><mark style="color:blue;">string</mark></em>   -   <mark style="color:orange;">Required</mark></summary>
 
 The email address of the user.
 
 Example:
 
-```joe.smith123@example.com```
+`joe.smith123@example.com`
 
 </details>
 
@@ -39,13 +36,13 @@ Example:
 
 <details>
 
-<summary>wallet address&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em></summary>
+<summary>wallet address   -   <em><mark style="color:blue;">string</mark></em></summary>
 
 The wallet address for the given email address.
 
 Example:
 
-```0x123abc456def789ghi012jkl345mno678pqrs90t```
+`0x123abc456def789ghi012jkl345mno678pqrs90t`
 
 </details>
 
@@ -94,15 +91,13 @@ console.log('wallet address: ', ret)
 
 ***
 
-<!--  -->
-<!--  -->
-<!--  -->
 ### getUserWalletsBatch
 
 Retrieve a list of user wallets.
 
 {% hint style="info" %}
 From the MetaKeep docs:
+
 > For user privacy and security, and to prevent abuse, you can only query wallets for users that have been queried previously using the User Wallet API (ie. getUserWallet). The API response will be missing wallets for users that have not been queried previously.
 {% endhint %}
 
@@ -110,11 +105,12 @@ From the MetaKeep docs:
 
 <details>
 
-<summary>emails&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string[ ]</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>emails   -   <em><mark style="color:blue;">string[ ]</mark></em>   -   <mark style="color:orange;">Required</mark></summary>
 
 An array of email addresses.
 
 Example:
+
 ```
 ['joe.smith123@example.com']
 ```
@@ -125,17 +121,19 @@ Example:
 
 <details>
 
-<summary>wallet address&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em></summary>
+<summary>wallet address   -   <em><mark style="color:blue;">string</mark></em></summary>
 
 The wallet address for the given email address.
 
 Example:
+
 ```
 wallet addresses:  {
   "bob.smith123@example.com": "0x9a425b93E13E6D451360445A5eA86C2e52d35C75",
   "joe.smith123@example.com": "0xAC55C8f86e9eDf9A1520f39158926Bd8c6A29dF7",
 }
 ```
+
 </details>
 
 #### Basic Usage
@@ -186,9 +184,6 @@ console.log('wallet addresses: ', ret)
 
 ***
 
-<!--  -->
-<!--  -->
-<!--  -->
 ### Balance Of ERC-1155
 
 Retrieve a user's wallet address given their email address.
@@ -207,9 +202,6 @@ Retrieve a user's wallet address given their email address.
 
 ***
 
-<!--  -->
-<!--  -->
-<!--  -->
 ### Balance Of ERC-20
 
 Retrieve a user's wallet address given their email address.

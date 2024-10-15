@@ -23,16 +23,12 @@ Chainstarters enables gasless transactions for non-custodial end-user wallets th
 ```
 {% endcode %}
 
-{% code %}
 ```typescript
 const consent = await sdk.getConsent(consentToken);
 ```
-{% endcode %}
+
 ***
 
-<!--  -->
-<!--  -->
-<!--  -->
 ## spendERC20
 
 Generate a consent token that a user can sign to spend their ERC20 tokens.
@@ -41,25 +37,25 @@ Generate a consent token that a user can sign to spend their ERC20 tokens.
 
 <details>
 
-<summary>amount_in_pennies&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>amount_in_pennies   -   <em><mark style="color:blue;">string</mark></em>   -   <mark style="color:orange;">Required</mark></summary>
 
-The amount_in_pennies the user wishes to spend.
+The amount\_in\_pennies the user wishes to spend.
 
 Example $1:
 
-```100```
+`100`
 
 </details>
 
 <details>
 
-<summary>email&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em>&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<mark style="color:orange;">Required</mark></summary>
+<summary>email   -   <em><mark style="color:blue;">string</mark></em>   -   <mark style="color:orange;">Required</mark></summary>
 
 The email address of the user.
 
 Example:
 
-```joe.smith123@example.com```
+`joe.smith123@example.com`
 
 </details>
 
@@ -67,13 +63,13 @@ Example:
 
 <details>
 
-<summary>consent token&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;<em><mark style="color:blue;">string</mark></em></summary>
+<summary>consent token   -   <em><mark style="color:blue;">string</mark></em></summary>
 
 The consent token used in the frontend to complete the transaction.
 
 Example:
 
-```TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gQ3VyYWJpdHVyIHR1cnBpcyBlcmF0LCBibGFuZGl0IHNlZCBtYWduYSB2aXRhZSwgdmFyaXVzIHBvcnR0aXRvciBtaS4gTnVuYyB1dCB2b2x1dHBhdCBhbnRlLiBJbnRlZ2VyIGV1IGVuaW0gYXJjdS4gVXQgYXQgZWxpdCBsaWJlcm8u```
+`TG9yZW0gaXBzdW0gZG9sb3Igc2l0IGFtZXQsIGNvbnNlY3RldHVyIGFkaXBpc2NpbmcgZWxpdC4gQ3VyYWJpdHVyIHR1cnBpcyBlcmF0LCBibGFuZGl0IHNlZCBtYWduYSB2aXRhZSwgdmFyaXVzIHBvcnR0aXRvciBtaS4gTnVuYyB1dCB2b2x1dHBhdCBhbnRlLiBJbnRlZ2VyIGV1IGVuaW0gYXJjdS4gVXQgYXQgZWxpdCBsaWJlcm8u`
 
 </details>
 

@@ -1,11 +1,12 @@
 ---
 description: >-
-  Chainstarters has partnered with MetaKeep to provide the best wallet experience available.
+  Chainstarters has partnered with MetaKeep to provide the best wallet
+  experience available.
 ---
 
 # MetaKeep
 
-> ### From MetaKeep:
+> #### From MetaKeep:
 >
 > Our singular mission is to create an inflection point in Web3 and make it mainstream.
 >

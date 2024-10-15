@@ -14,14 +14,14 @@ Info item 2
 
 Each data source listed below is a collection of methods accessible via the GraphQL API.
 
-{% content-ref url="metakeep/" %}
-[metakeep](metakeep/)
-{% endcontent-ref %}
-
 {% content-ref url="collections/" %}
 [collections](collections/)
 {% endcontent-ref %}
 
 {% content-ref url="nfts/" %}
 [nfts](nfts/)
+{% endcontent-ref %}
+
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}
