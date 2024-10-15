@@ -13,5 +13,6 @@
     * [Signing](reference/graphql-api-reference/metakeep/signing.md)
   * [Collections](reference/graphql-api-reference/collections/README.md)
     * [Create a Collection](reference/graphql-api-reference/collections/create-a-collection.md)
-  * [Nfts](reference/graphql-api-reference/nfts/README.md)
-    * [Create an Nft](reference/graphql-api-reference/nfts/create-an-nft.md)
+  * [Digital Assets](reference/graphql-api-reference/nfts/README.md)
+    * [Create a Digital Asset](reference/graphql-api-reference/nfts/create-an-nft.md)
+  * [Companies](reference/graphql-api-reference/companies.md)
