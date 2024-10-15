@@ -17,3 +17,7 @@
     * [Create a Digital Asset](reference/graphql-api-reference/nfts/create-an-nft.md)
   * [Companies](reference/graphql-api-reference/companies/README.md)
     * [Create a company](reference/graphql-api-reference/companies/create-a-company.md)
+  * [Securities](reference/graphql-api-reference/securities/README.md)
+    * [Create Security Token](reference/graphql-api-reference/securities/create-security-token.md)
+    * [Update Security Token](reference/graphql-api-reference/securities/update-security-token.md)
+    * [Launch Security Token](reference/graphql-api-reference/securities/launch-security-token.md)
