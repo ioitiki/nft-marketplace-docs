@@ -1,19 +1,16 @@
 # Table of contents
 
-* [Welcome!](README.md)
-* [👋 About Us](about-us/README.md)
-  * [Our Journey](about-us/our-journey.md)
-  * [Technology](about-us/technology/README.md)
-    * [Secure and Scalable Infrastructure](about-us/technology/secure-and-scalable-infrastructure.md)
-    * [Web3 Infrastructure](about-us/technology/web3-infrastructure.md)
-    * [Tokens for Regulated Exchanges (TREX)](about-us/technology/tokens-for-regulated-exchanges-trex.md)
-    * [ONCHAINID](about-us/technology/onchainid.md)
+* [Welcome to Chainstarters Documentation](README.md)
+  * [Chainstarters Platform Overview](readme/chainstarters-platform-overview/README.md)
+    * [Web3 Infrastructure](readme/chainstarters-platform-overview/web3-infrastructure.md)
+    * [ONCHAINID](readme/chainstarters-platform-overview/onchainid.md)
+    * [Tokens for Regulated Exchanges (TREX)](readme/chainstarters-platform-overview/tokens-for-regulated-exchanges-trex.md)
 
 ## Api Reference
 
 * [🔐 Authentication](api-reference/authentication.md)
 * [🚀 Graphql API Reference](api-reference/graphql-api-reference/README.md)
-  * [MetaKeep](api-reference/graphql-api-reference/metakeep/README.md)
+  * [Wallets](api-reference/graphql-api-reference/metakeep/README.md)
     * [Wallet](api-reference/graphql-api-reference/metakeep/wallet.md)
     * [Consent Tokens](api-reference/graphql-api-reference/metakeep/consent-tokens.md)
     * [Transactions](api-reference/graphql-api-reference/metakeep/transactions.md)
