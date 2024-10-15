@@ -1,4 +1,4 @@
-# Graphql API Reference
+# 🚀 Graphql API Reference
 
 ## General Information
 

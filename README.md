@@ -37,14 +37,14 @@ To view the GraphQL schema and run functions on the web go to:
 
 Feeling like an eager beaver? Jump in to the quick start docs and get making your first request:
 
-{% content-ref url="reference/graphql-api-reference/collections/create-a-collection.md" %}
-[create-a-collection.md](reference/graphql-api-reference/collections/create-a-collection.md)
+{% content-ref url="api-reference/graphql-api-reference/collections/create-a-collection.md" %}
+[create-a-collection.md](api-reference/graphql-api-reference/collections/create-a-collection.md)
 {% endcontent-ref %}
 
 ## Want to deep dive?
 
 Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
 
-{% content-ref url="reference/graphql-api-reference/" %}
-[graphql-api-reference](reference/graphql-api-reference/)
+{% content-ref url="api-reference/graphql-api-reference/" %}
+[graphql-api-reference](api-reference/graphql-api-reference/)
 {% endcontent-ref %}
