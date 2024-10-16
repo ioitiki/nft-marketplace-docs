@@ -14,6 +14,7 @@
 
 * [Tokenized Securities](slate-powered-by-chainstarters/tokenized-securities.md)
 * [Tokenized Securities with Slate](slate-powered-by-chainstarters/tokenized-securities-with-slate.md)
+* [Slate AI](slate-powered-by-chainstarters/slate-ai.md)
 * [Tokens for Regulated Exchanges (TREX)](slate-powered-by-chainstarters/tokens-for-regulated-exchanges-trex.md)
 * [ONCHAINID](slate-powered-by-chainstarters/onchainid.md)
 

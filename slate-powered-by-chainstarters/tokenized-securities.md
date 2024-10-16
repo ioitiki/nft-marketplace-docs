@@ -40,3 +40,10 @@ Tokenizing securities offers a revolutionary approach to capital markets by stre
 * Fund managers and investment firms looking to tokenize their portfolios
 * Advisors and brokers offering innovative financial instruments
 * Institutions seeking to enhance liquidity for private markets
+
+***
+
+Explore the full potential of Slate with our **Slate Security Token Creator**. For a guided experience on how to deploy a compliant security token, visit:\
+[Slate Security Token Creator](https://chatgpt.com/g/g-sWq1c0ODe-slate-security-token-creator).
+
+This addition provides an interactive resource to streamline the token issuance process and ensure seamless compliance.
