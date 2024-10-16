@@ -21,6 +21,7 @@
 ## CHAINSTARTERS MARKETPLACE
 
 * [Marketplace Overview](chainstarters-marketplace/marketplace-overview.md)
+* [Chainstarters Marketplace Technology](chainstarters-marketplace/chainstarters-marketplace-technology.md)
 
 ## Api Reference
 

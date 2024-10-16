@@ -1,7 +1,8 @@
 # Tokenized Securities
 
-**Introduction**\
-Tokenizing securities offers a revolutionary approach to capital markets by streamlining the issuance, management, and trading of assets. With our platform, companies can leverage blockchain technology to unlock liquidity, automate compliance, and open up new opportunities for investment.
+Tokenizing securities offers a revolutionary approach to capital markets by streamlining the issuance, management, and trading of assets. With our platform, companies can leverage blockchain technology to unlock liquidity, automate compliance, and open new opportunities for investment.
+
+If you want to dive deeper into how tokenization works, check out our interactive GPT-based exploration here: [Learn more about securities and tokenization](https://chatgpt.com/share/67102149-9234-8005-8996-60927aa522f5).
 
 ***
 
