@@ -4,7 +4,7 @@ description: Create a company.
 
 # Create a company
 
-\<TODO write better> Create a company. You can view your company in the Chainstarters dashboard. It represents the company you are creating Security Tokens under. Security tokens are created under a company. Dashboard users can be added to companies to help manage and create securities, as well as perform other roles.
+Create a company in the Chainstarters dashboard. This company will serve as the foundation for issuing Security Tokens. Security tokens are created under a specific company, and you can invite other users to your company's dashboard. These users can help manage and create security tokens, as well as perform other key roles.
 
 ## Basic Usage
 
