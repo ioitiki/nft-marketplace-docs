@@ -21,7 +21,9 @@ layout:
 
 ## Empowering the Future of Tokenization and Asset Management
 
-At Chainstarters, we believe that tokenizing assets should be straightforward and accessible to everyone. We've built a powerful yet user-friendly platform that makes it easy to:
+At Chainstarters, we believe that tokenizing assets should be simple, accessible, and transformative. Our platform is designed to help businesses seamlessly embrace on-chain solutions to unlock value, streamline operations, and increase profits.
+
+#### **What You Can Achieve with Chainstarters**
 
 * **Tokenize Securities**
   * Seamlessly convert traditional securities into digital tokens, opening up new avenues for investment and liquidity.
@@ -43,17 +45,7 @@ At Chainstarters, we believe that tokenizing assets should be straightforward an
 
 ***
 
-
-
-{% hint style="info" %}
-If you're looking for more general information about Chainstarters, check out the main website [https://www.chainstarters.com](https://www.chainstarters.com).
-{% endhint %}
-
-{% hint style="info" %}
-To view the GraphQL schema and run functions on the web go to:
-
-> https://cs-<\<PROJECT\_ID>>.prime-jackpot-expanse.chainstarters.io/prod
-{% endhint %}
+Let’s unlock value, increase efficiency, and shape the future of asset management together. Dive into the documentation to explore the full potential of Chainstarters, and reach out to our team if you need support along the way.
 
 
 
@@ -61,6 +53,6 @@ To view the GraphQL schema and run functions on the web go to:
 
 Dive a little deeper and start exploring our API reference to get an idea of everything that's possible with the API:
 
-{% content-ref url="api-reference/graphql-api-reference/" %}
-[graphql-api-reference](api-reference/graphql-api-reference/)
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
 {% endcontent-ref %}

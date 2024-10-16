@@ -1,4 +1,4 @@
-# 🔐 Authentication
+# Authentication
 
 In order to authenticate to the Chainstarters API you will need to pass a token in the Authorization header. There are three main types of tokens each distinguished by their prefix. There is an owner token, an admin token, and several user tokens. This section will not cover user tokens.
 

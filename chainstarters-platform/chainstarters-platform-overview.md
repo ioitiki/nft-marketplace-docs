@@ -1,17 +1,10 @@
----
-description: >-
-  Chainstarters bridges the gap between traditional and Web3 infrastructure,
-  combining enterprise-grade security and scalability with the innovation of
-  decentralized technology.
----
-
-# Secure and Scalable Infrastructure
+# Platform Architecture
 
 ## Diagram
 
 ***
 
-<figure><img src="../../.gitbook/assets/cs-stack-chart3.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/cs-stack-chart3.png" alt=""><figcaption></figcaption></figure>
 
 ## Overview
 

@@ -4,7 +4,7 @@ description: >-
   security on the planet!
 ---
 
-# Web3 Infrastructure
+# On-chain Infrastructure
 
 At Chainstarters, we leverage MetaKeep's innovative Web3 infrastructure to provide our customers with the best user experience, unmatched security, and scalability for millions of transactions. MetaKeep's architecture is built around the idea of frictionless integration, making it the perfect solution for delivering blockchain-based solutions tied to user email addresses with zero gas fees, ensuring seamless adoption at scale.
 
