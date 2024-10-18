@@ -74,11 +74,11 @@ Example: `Salem, Oregon, USA`
 
 <details>
 
-<summary>date_of_organization    -    <em><mark style="color:blue;">string (timestamp)</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
+<summary>date_of_organization    -    <em><mark style="color:blue;">string (ISO string)</mark></em>    -    <mark style="color:orange;">Required</mark></summary>
 
-The date the company was organized (as a timestamp).
+The date the company was organized (as an ISO string).
 
-Example: `1722902400000`
+Example: `Wed Aug 08 2024 00:00:00Z`
 
 </details>
 
@@ -244,7 +244,7 @@ Example: `null`
  "ceo_officer_id": "51",
  "state_of_organization": "FL",
  "address": "Salem, Oregon, USA",
- "date_of_organization": "1722902400000",
+ "date_of_organization": "Wed Aug 08 2024 00:00:00Z",
  "tax_id": "98723405982347509234785",
  "website": "https://delicious-fit.net/",
  "phone": null,
